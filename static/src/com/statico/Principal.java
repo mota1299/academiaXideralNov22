@@ -4,7 +4,7 @@ public class Principal {
 
 	public static void main(String[] args) {
 		
-		System.out.println(Empleado.contador);
+		//System.out.println(Empleado.contador);
 
 		Empleado e1 = new Empleado("Patrobas");
 		System.out.println(Empleado.contador);

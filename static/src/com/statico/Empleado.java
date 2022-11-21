@@ -7,7 +7,7 @@ public class Empleado {
 	String nombre; //null
 	
 	// ** CLASE **
-	int contador; //0
+	static int contador; //0
 	
 	Empleado(String nombre){
 		this.nombre = nombre;
