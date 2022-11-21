@@ -15,11 +15,19 @@ public class Principal {
 		Principal p = new Principal();
 	}
 	
+	static {
+		System.out.println("Paso por bloque de Inicialización 1 static");
+	}
+	
 	{
 		System.out.println("Paso por bloque de Inicialización 2");
 	}
 
 	{
 		System.out.println("Paso por bloque de Inicialización 1");
+	}
+	
+	static {
+		System.out.println("Paso por bloque de Inicialización 2 static");
 	}
 }
