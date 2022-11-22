@@ -11,7 +11,7 @@ public class Empleado {
 	
 	Empleado(String nombre){
 		this.nombre = nombre;
-		contador = contador + 1;
+		contador++;
 	}
 
 }

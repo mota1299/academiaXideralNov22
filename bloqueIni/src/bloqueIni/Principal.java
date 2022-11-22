@@ -13,6 +13,8 @@ public class Principal {
 		System.out.println("Hola Mundo");
 		
 		Principal p = new Principal();
+		Principal p01 = new Principal();
+		Principal p02 = new Principal();
 	}
 	
 	static {
@@ -27,7 +29,7 @@ public class Principal {
 		System.out.println("Paso por bloque de Inicialización 1");
 	}
 	
-	static {
-		System.out.println("Paso por bloque de Inicialización 2 static");
-	}
+//	static {
+//		System.out.println("Paso por bloque de Inicialización 2 static");
+//	}
 }
