@@ -1,13 +1,14 @@
-package com.curso.v3;
+package com.curso.v4;
 
-public class Animal {
-	public void animalSound() {
-		System.out.println("The animal makes a sound");
-	}
+public abstract class Animal {
+	public abstract void animalSound();
 }
 
 class Cat extends Animal {
-	
+	@Override
+	public void animalSound() {
+		System.out.println("The Cat says: miau");
+	}
 }
 
 class Eagle extends Animal {

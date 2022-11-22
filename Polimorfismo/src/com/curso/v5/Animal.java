@@ -1,37 +1,38 @@
-package com.curso.v3;
+package com.curso.v5;
 
-public class Animal {
+public interface Animal {
+	void animalSound();
+}
+
+class Cat implements Animal {
+	@Override
 	public void animalSound() {
-		System.out.println("The animal makes a sound");
+		System.out.println("The Cat says: miau");
 	}
 }
 
-class Cat extends Animal {
-	
-}
-
-class Eagle extends Animal {
+class Eagle implements Animal {
 	@Override
 	public void animalSound() {
 		System.out.println("The Eagle says: puras fallas!!");
 	}
 }
 
-class Pig extends Animal {
+class Pig implements Animal {
 	@Override
 	public void animalSound() {
 		System.out.println("The pig says: wee wee");
 	}
 }
 
-class Duck extends Animal {
+class Duck implements Animal {
 	@Override
 	public void animalSound() {
 		System.out.println("The duck says: quak quak");
 	}
 }
 
-class Dog extends Animal {
+class Dog implements Animal {
 	@Override
 	public void animalSound() {
 		System.out.println("The dog says: bow wow");
