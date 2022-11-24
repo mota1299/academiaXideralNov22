@@ -6,6 +6,7 @@ public class Principal {
 
 	public static void main(String[] args) {
 		
+		
 		Estacion e = getEstacion();
 		
 		switch(e) {
