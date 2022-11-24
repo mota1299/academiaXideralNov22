@@ -1,13 +1,10 @@
 package com.loop;
 
-public class FindInMatrix {
+public class FindInMatrix2 {
 	
 	public static void main(String[] args) {
 
-		int[][] list = { { 1, 13 }, { 5, 2 }, { 2, 2 } }; 
-		//2,1*
-		//2,0*
-		//1,1*
+		int[][] list = { { 1, 13 }, { 2, 5 }, { 2, 2 } }; 
 
 		int searchValue = 2;
 		int positionX = -1;
@@ -20,7 +17,11 @@ public class FindInMatrix {
 					positionY = j;
 					System.out.println("i: "+i);
 					System.out.println("j: "+j);
-					break ETIQUETA;
+					//1,0 //continue
+					//2,0 //continue
+					
+					//1,0 //break
+					continue ETIQUETA;
 				}
 			}
 		}
