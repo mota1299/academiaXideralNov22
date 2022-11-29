@@ -77,7 +77,7 @@ class TestComposite {
 						new Constante(testValorA)
 						),
 				new Constante(testValorB));
-		assertEquals(4.5,e.getValor());
+		assertEquals(4.5,e.getValor(),0.01);
 	}
 
 }
