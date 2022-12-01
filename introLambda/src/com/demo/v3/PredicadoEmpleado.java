@@ -5,5 +5,8 @@ public interface PredicadoEmpleado {
 
 	abstract boolean probar(Empleado emp);
 	
+	// emp -> {
+			  //LINEAS DE CODIGO
+	//        return boolean};
 	
 }
